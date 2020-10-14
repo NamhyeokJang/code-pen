@@ -1,0 +1,10 @@
+.CodeMirror {
+  height: 95vh !important;
+}
+
+
+@media screen and (max-width: 960px) {
+  .CodeMirror {
+    height: 45vh !important;
+  }
+}

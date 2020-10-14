@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainView {
+  display: flex;
+}
+
+
+@media screen and (max-width: 960px) {
+  .mainView {
+    flex-direction: column;
+  }
+}
